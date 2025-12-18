@@ -1,11 +1,13 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
-body{
+
+body {
     font-family: Poppins;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     padding-top: 10px;
@@ -15,31 +17,35 @@ nav{
     z-index: 999;
     top: 0;
 }
-.logo{
+
+.logo {
     margin-left: 50px;
 }
+
 .nav-item {
- margin-left: auto;
- margin-right: 40px;
+    margin-left: auto;
+    margin-right: 40px;
 }
-.nav-item ul{
+
+.nav-item ul {
     display: flex;
     align-items: center;
     gap: 25px;
     margin-top: -10px;
-   
+
 }
 
-.nav-item ul li{
+.nav-item ul li {
     list-style: none;
 }
-.nav-item ul li a{
+
+.nav-item ul li a {
     text-decoration: none;
     font-size: 18px;
     color: black;
 }
 
-.nav-button button{
+.nav-button button {
     width: 170px;
     height: 45px;
     border: 1px solid #fbcb2c;
@@ -52,7 +58,7 @@ nav{
 }
 
 /* video */
-video{
+video {
     margin-top: -90px;
     position: relative;
     z-index: 1;
@@ -60,93 +66,106 @@ video{
 }
 
 /* Announcment */
-.it-logo img{
+.it-logo img {
     margin-left: 32%;
     position: relative;
 }
-.it-2{
+
+.it-2 {
     font-size: 19px;
     color: #8925b2;
     text-align: center;
 }
-.anouncment{
+
+.anouncment {
     display: flex;
     padding-top: 40px;
     justify-content: space-evenly;
 }
-.acc-main h2{
+
+.acc-main h2 {
     font-size: 50px;
     padding-top: 40px;
     text-align: center;
     color: #8925b2;
 }
-.acc-main{
+
+.acc-main {
     background-color: white;
-     z-index: 100;
+    z-index: 100;
     margin-top: -250px;
     height: 350px;
     position: relative;
-     width: 80%;
+    width: 80%;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
-.it-1 p{
-    font-size: 18px ;
+
+.it-1 p {
+    font-size: 18px;
     font-weight: 600;
 }
-.it-1:hover{
+
+.it-1:hover {
     transform: translateY(-10px);
     cursor: pointer;
 }
-.motive{
+
+.motive {
     background-color: white;
     height: 700px;
     margin-top: -200px;
     position: relative;
     z-index: 80;
 }
-.motive-logo img{
+
+.motive-logo img {
     padding-top: 300px;
     margin-left: 38%;
     margin-right: auto;
 }
-.motive-hd{
+
+.motive-hd {
     text-align: center;
     font-size: 30px;
     margin-top: 10px;
     color: #8925b2;
 }
-.motive-para{
+
+.motive-para {
     text-align: center;
     font-size: 15px;
     margin-top: 20px;
 }
 
 
-.banner{
+.banner {
     height: 400px;
     background-color: #8925b2;
     display: flex;
     align-items: center;
     padding-bottom: 60px;
 }
-.left h2{
+
+.left h2 {
     font-size: 45px;
     line-height: 55px;
     color: white;
     padding-top: 50px;
-    
+
 }
-.left p{
+
+.left p {
     padding-top: 40px;
     color: white;
     font-size: 18px;
 }
-.left{
+
+.left {
     margin-left: 50px;
-    
+
 }
 
 .right {
@@ -155,4 +174,3 @@ video{
     position: relative;
     z-index: 200;
 }
-
