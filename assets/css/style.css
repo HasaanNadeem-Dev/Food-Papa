@@ -58,6 +58,8 @@ video{
     z-index: 1;
     width: 100%;
 }
+
+/* Announcment */
 .it-logo img{
     margin-left: 32%;
     position: relative;
@@ -69,16 +71,12 @@ video{
 }
 .anouncment{
     display: flex;
-    padding-top: 50px;
-
-   
+    padding-top: 40px;
     justify-content: space-evenly;
-   
-
 }
 .acc-main h2{
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 40px;
     text-align: center;
     color: #8925b2;
 }
@@ -102,3 +100,59 @@ video{
     transform: translateY(-10px);
     cursor: pointer;
 }
+.motive{
+    background-color: white;
+    height: 700px;
+    margin-top: -200px;
+    position: relative;
+    z-index: 80;
+}
+.motive-logo img{
+    padding-top: 300px;
+    margin-left: 38%;
+    margin-right: auto;
+}
+.motive-hd{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #8925b2;
+}
+.motive-para{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.banner{
+    height: 400px;
+    background-color: #8925b2;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.left h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: white;
+    padding-top: 50px;
+    
+}
+.left p{
+    padding-top: 40px;
+    color: white;
+    font-size: 18px;
+}
+.left{
+    margin-left: 50px;
+    
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 50px;
+    position: relative;
+    z-index: 200;
+}
+
